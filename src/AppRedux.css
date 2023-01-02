@@ -43,3 +43,20 @@ h1 {
 .title {
   margin-left: 50px;
 }
+
+.fa-minus-square-o {
+  color: red;
+}
+.fa-pencil-square-o {
+  color: orangered;
+}
+.fa-check-square-o {
+  color: green;
+}
+.fa-square-o {
+  color: grey;
+}
+.parag {
+  font-family: cursive;
+}
+
