@@ -29,7 +29,7 @@ const AddTask = () => {
           }}
         />
         <Button
-          variant="outline-secondary"
+          variant="outline-success"
           id="button-addon2"
           onClick={handleSubmit}
         >
