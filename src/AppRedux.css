@@ -1,0 +1,45 @@
+.bigDiv {
+  margin-top: 20px;
+  width: 40%;
+  margin: auto;
+  border-style: outset;
+  border-radius: 7px;
+}
+.mb-3 {
+  width: 80%;
+  margin: auto;
+}
+.buttons {
+  width: 120px;
+  margin: 15px;
+  margin-bottom: 40px;
+}
+.pad {
+  margin-left: 47px;
+}
+.fa {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+.flexOptions {
+  margin-left: 60px;
+  margin-right: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  margin: 40px;
+  text-align: center;
+  font-size: 70px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #3d3d3d, #b193cf);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-family: Papyrus, fantasy;
+  font-weight: bolder;
+}
+.title {
+  margin-left: 50px;
+}
