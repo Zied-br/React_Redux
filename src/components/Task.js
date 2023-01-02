@@ -28,7 +28,7 @@ const Task = ({ search }) => {
               {listDone.map((el, i) => (
                 <section key={i}>
                   <div className="flexOptions">
-                    <div> {el.description}</div>
+                    <div className="parag"> {el.description}</div>
                     <div>
                       <i
                         className="fa fa-check-square-o"
@@ -59,7 +59,7 @@ const Task = ({ search }) => {
               {listNotDone.map((el, i) => (
                 <section key={i}>
                   <div className="flexOptions">
-                    <div>{el.description}</div>
+                    <div className="parag">{el.description}</div>
                     <div>
                       <i
                         className="fa fa-square-o"
@@ -92,7 +92,7 @@ const Task = ({ search }) => {
           {listDone.map((el, i) => (
             <section key={i}>
               <div className="flexOptions">
-                <div> {el.description}</div>
+                <div className="parag"> {el.description}</div>
                 <div>
                   <i
                     className="fa fa-check-square-o"
@@ -121,7 +121,7 @@ const Task = ({ search }) => {
           {listNotDone.map((el, i) => (
             <section key={i}>
               <div className="flexOptions">
-                <div>{el.description}</div>
+                <div className="parag">{el.description}</div>
                 <div>
                   <i
                     className="fa fa-square-o"
