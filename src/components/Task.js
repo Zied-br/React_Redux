@@ -28,7 +28,7 @@ const Task = ({ search }) => {
               {listDone.map((el, i) => (
                 <section key={i}>
                   <div className="flexOptions">
-                    <div style={{ textDecoration: "line-through" }} className="parag"> {el.description}</div>
+                    <div style={{ textDecoration: "line-through" ,opacity:"0.5"}} className="parag"> {el.description}</div>
                     <div>
                       <i
                         className="fa fa-check-square-o"
@@ -92,7 +92,7 @@ const Task = ({ search }) => {
           {listDone.map((el, i) => (
             <section key={i}>
               <div className="flexOptions">
-                <div style={{ textDecoration: "line-through" }} className="parag"> {el.description}</div>
+                <div style={{ textDecoration: "line-through" ,opacity:"0.5"}} className="parag"> {el.description}</div>
                 <div>
                   <i
                     className="fa fa-check-square-o"
